@@ -14,6 +14,10 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "AmazonMusicDesktop"
+        ),
+        .testTarget(
+            name: "AmazonMusicDesktopTests",
+            dependencies: ["AmazonMusicDesktop"]
         )
     ]
 )

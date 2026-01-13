@@ -151,7 +151,7 @@ final class WebPlayerController: ObservableObject {
     }
 }
 
-private struct NowPlayingPayload: Decodable {
+struct NowPlayingPayload: Decodable {
     let title: String
     let artist: String
     let artworkURL: String
