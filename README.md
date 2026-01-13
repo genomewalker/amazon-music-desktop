@@ -1,5 +1,8 @@
 # Amazon Music Desktop
 
+![CI](https://github.com/genomewalker/amazon-music-desktop/actions/workflows/ci.yml/badge.svg)
+![Secret Scan](https://github.com/genomewalker/amazon-music-desktop/actions/workflows/secret-scan.yml/badge.svg)
+
 A lightweight macOS desktop wrapper for Amazon Music built with SwiftUI and `WKWebView`. It provides a native window, menu bar controls, and a mini player while keeping you in the Amazon Music web experience.
 
 ## Features
